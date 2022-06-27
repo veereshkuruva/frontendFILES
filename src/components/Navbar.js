@@ -7,6 +7,7 @@ const Navbar = () => {
        <nav>
       
        <Link to ="/show">show</Link>
+       <Link to ="/file" style={{marginLeft:"30px"}}>File</Link>
        </nav>
     </div>
   )

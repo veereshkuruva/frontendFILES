@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 const Show = () => {
 
-  const [state, setState] = useState([])
+  const [state, setState] = useState()
 
   useEffect(() => {
     axios.get("http://localhost:5050/form").then(res => {
